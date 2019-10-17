@@ -1,3 +1,38 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
+# add background blurr to MultiTasking window
+#ro.miui.has_real_blur=0
+#ro.miui.has_blur=1
+
+# MIUI 8 fingerprint for device certied status in play store, MIUI 9 is stll showing uncertified
+#ro.build.fingerprint=Xiaomi/gemini/gemini:7.0/NRD90M/V8.2.2.0.NAAMIEB:user/release-keys
+#ro.build.description=gemini-user 7.0 NRD90M V8.2.2.0.NAAMIEB release-keys
+
+#Camera MODs (better image quality)
+#ro.media.enc.jpeg.quality=100
+#ro.media.enc.hprof.vid.fps=65
+#ro.media.dec.jpeg.memcap=8000000
+#ro.media.enc.hprof.vid.bps=8000000
+
+# Telephone ring delay
+ro.telephony.call_ring.delay=0
+ring.delay=0
+
+# Dalvik mode
+#dalvik.vm.image-dex2oat-filter=speed
+#dalvik.vm.dex2oat-filter=speed
+
+# Bluetooth Fixes
+#ro.bluetooth.remote.autoconnect=true
+#ro.bluetooth.request.master=true
+
+# Enable Camera2 API, this is causing front camera to rotate
+#persist.camera.HAL3.enabled=1
+#persist.camera.eis.enable=1
+#persist.camera.is_mode=4
+
+# Debugging Notification turned off
+persist.adb.notify=0
+
+
