@@ -47,3 +47,5 @@ v2.8    FindDevice debloated
 
 v2.9    reverted FindDevice
 
+v2.10	Added Enable Camera2 API
+
