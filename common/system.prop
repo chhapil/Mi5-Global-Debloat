@@ -16,7 +16,7 @@ ro.bluetooth.remote.autoconnect=true
 ro.bluetooth.request.master=true
 
 # Enable Camera2 API, this is causing front camera to rotate
-persist.camera.HAL3.enabled=1
+#persist.camera.HAL3.enabled=1
 
 
 # Debugging Notification turned off
